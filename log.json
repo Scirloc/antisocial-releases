@@ -8,32 +8,32 @@
         "files": {
           "_core.html": "sha256-86546ecfcb0195501d478d3707f178fada254645008e6c8c84bdf69019cc8916",
           "_frame.html": "sha256-6a6b23df485523e0f9f659c42b5c2edfc90e10fd542ff03e2ab348a05518650e",
-          "core.js": "sha256-7e987ce6f9ae31228d2b330c2e9b9fd7518799120c7bf4490bcd87b24da4029a",
+          "core.js": "sha256-020eaa2a94360d369e71eceeeebea99c26e4f32afc4bad7f25b9de771cd0db9a",
           "frame.js": "sha256-8fdbfff2d03edcf9b8a0295da9a2ba5dc1540ab28270e515299c56ccacbb43f9",
           "index.html": "sha256-fea512cacd0430274c131d4881bc5f98e66c5764b44b2f4230fabc8b0869f477",
           "kernel.css": "sha256-500690cbd4408fe3427b580203c31ddec5c06f3b97a6b3edcafab5b8fb9bf3f9",
-          "kernel.js": "sha256-c6c74b46456633c8cdb2b03f29138d149227ee1e37e0b8fc02d0c96655740356",
-          "kernel.json": "sha256-d7392c41f4f3bddd0613239fa605c5a28ce630210859b1bbb892198d98423a65",
-          "lib/store.js": "sha256-602633ea8a3a08bf10849a5c14f461dcf3051411c7a25759e1acecd8cf6b3664",
+          "kernel.js": "sha256-0fdd05f1e7eb5ffc950f74ab4e290f8b43c8f5ff0d323891eff4a59220329e7c",
+          "kernel.json": "sha256-a782fc103b35650ac5248bd7a2bf387170c9b85b5d617391e93e120b9ceba2d5",
+          "lib/store.js": "sha256-bbe1db57ba674c9a81e378f4cb220d0941bd041bf0c46b003e82122ab6e8d905",
           "lib/verify.js": "sha256-a03c0ac7b7538914392296ddee1bdec9813bd2fe74699d44e3344cca23603173"
         },
         "kernelVersion": 1,
         "v": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "C3JOz9XwqFhdN1Wu6c9aFFFQ_e_3K_3SiQZeIhKhfEmAROqz3qjQEGtpu8DYYBm6syVj-l43544LhARbuId9nA"
+      "sig": "3LWaz_P5V5TAJy4Fz44aH6ScOIxgmyhkOqF8PBBKDF1y-lhQqOSmcRQdYCn98GfQDUJz2i0zg2J1_jVYBfPgkg"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-27T22:19:07Z",
+        "built": "2026-09-27T22:46:47Z",
         "exports": [],
         "frames": {
           "core": {
             "entry": "main.js",
             "files": {
-              "main.js": "sha256-71221853377047c3a6e7dd3639d0383a97e4fa2566ba0245165d4f05d7be514b",
+              "main.js": "sha256-b02cd51a3f9cf097ae33324e035d881b0027a74d3ec85540ff0041dcd901cf83",
               "statements.mjs": "sha256-67d8af46e28f853b3feebcd40fcffdb23c310ce1037530d50ba75d8e742fa1f3"
             },
             "firstParty": true
@@ -41,19 +41,19 @@
         },
         "kid": "529ec1fdfce2846c",
         "requires": [],
-        "sourceCommit": "426905c1a0a0a69f7615d89b0a070671b9cdeb80",
+        "sourceCommit": "48257fb613c155602fe1a0b10022694973668520",
         "target": "layer:id",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "5kNOGVKdl3GYCGBeH3Ntn9r8C-vqglQhwbrczWgL6E2BmUDV72TMgLV-UVypng4IeRSGr9vgI99iRzIsAV-13g"
+      "sig": "CkfxTjVQQgG1N88PAup78YcVX9FcpKrNeNQOdYVtbCVFTYxJjTlAXFbwOeuyQefTlXfPGxK3ReScwkX_AqSuiQ"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-27T22:19:07Z",
+        "built": "2026-09-27T22:46:47Z",
         "exports": [
           "friends.list",
           "share.compose"
@@ -79,14 +79,14 @@
           "core": {
             "entry": "core/api.js",
             "files": {
-              "core/api.js": "sha256-4b717adecae6ad539efa28554323f2f72d3c5b566f1a0dd22f6ee561231e54e6",
+              "core/api.js": "sha256-c7cd3ee322dafaa9e5d7e5375249eb079121cf1e6dfcfb0703b217d318c8f4da",
               "core/deskErase.js": "sha256-81307e1f39742fb451761ef3456355a591f2f248d0deb0ea7c6dc1325f47f463",
               "core/envelopes.mjs": "sha256-01d0326d66456c09e75beda916343ab3fa8ab3f3ea2179b87507bc7393939204",
               "core/epoch.mjs": "sha256-6b1c3dc4c6c4c73416061bb9012bd4cb5e510e58c3b3e82d6606487edf4bf184",
               "core/exports.mjs": "sha256-15c67fb2ad2446441f17ef61233933383d799bc4eb9f4697f2fee97f70aee913",
               "core/forums.js": "sha256-c75918001727f3291fd35f8e4ee5ac4f1057c50c6e0174809fcec39d9a80e350",
               "core/hooks.js": "sha256-46819753c456af3b18b791ff9ddfde50125ee87d32b990e6ac5ed3e68d346cea",
-              "core/legacyDecrypt.mjs": "sha256-63010e28bbcd7bf5bfe3f3adb4fd05e65ea971e9f6a9f9359c10c38992581f49",
+              "core/legacyDecrypt.mjs": "sha256-b3e368e0514f1de5cbf51ef9b62ae73c359f49c2e5b21926e4382feddf04c703",
               "core/media.js": "sha256-0e9661d6b3b18ca81a3ca7b2d2fc5af2df8975ad503373b493af1d75d2454e65",
               "core/movieSync.js": "sha256-559986f02a4a05403acfa9f31b0180b226999bc12cf3cdb1127b97d551a9f721",
               "core/protocol.js": "sha256-f291c64d462c93af8325a83d74fe1cfaf6375f673dc63f45db484aac2ec53d14",
@@ -151,13 +151,13 @@
         "requires": [
           "id@1"
         ],
-        "sourceCommit": "426905c1a0a0a69f7615d89b0a070671b9cdeb80",
+        "sourceCommit": "48257fb613c155602fe1a0b10022694973668520",
         "target": "layer:socials",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "gwB8fDt0F5IdFaUh6eV5Jq8qSeNNjs_WtZ6C-NNWIszQvF5lkHnZaTQmPkKfkQZgt5YVJ3r1iBdKtYL53Hh3Bw"
+      "sig": "EITpikk4IKbBJHEQ3V2UTlhZs_yV5vYEQL1T1XgkyizqCTG6SLnnk2RG-eYL8e140KbNAPRlJ-sv3U_XoM69Zg"
     }
   ]
 }
