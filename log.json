@@ -1,0 +1,161 @@
+{
+  "v": 1,
+  "entries": [
+    {
+      "v": 1,
+      "kind": "kernel",
+      "statement": {
+        "files": {
+          "_core.html": "sha256-86546ecfcb0195501d478d3707f178fada254645008e6c8c84bdf69019cc8916",
+          "_frame.html": "sha256-6a6b23df485523e0f9f659c42b5c2edfc90e10fd542ff03e2ab348a05518650e",
+          "core.js": "sha256-7e987ce6f9ae31228d2b330c2e9b9fd7518799120c7bf4490bcd87b24da4029a",
+          "frame.js": "sha256-8fdbfff2d03edcf9b8a0295da9a2ba5dc1540ab28270e515299c56ccacbb43f9",
+          "index.html": "sha256-ed76ced426cc52dc497f4ae2442775baf2a252f909ab1c0854c88399c3ffd1f8",
+          "kernel.css": "sha256-d2d1b017ce28cec1a39a2c035470871071580c1ea4b146173f6c29fd15bdad5f",
+          "kernel.js": "sha256-055bb23932cb99e7e54b56222dfe035559f75710f3dc2b8c1c18e676766e9c3e",
+          "kernel.json": "sha256-d726eee0bab556a8fa81bd193eed43965500f8220af0cae7c06084435b9b068a",
+          "lib/store.js": "sha256-602633ea8a3a08bf10849a5c14f461dcf3051411c7a25759e1acecd8cf6b3664",
+          "lib/verify.js": "sha256-a03c0ac7b7538914392296ddee1bdec9813bd2fe74699d44e3344cca23603173"
+        },
+        "kernelVersion": 1,
+        "v": 1
+      },
+      "kid": "529ec1fdfce2846c",
+      "sig": "h3SDW8gno41UYutYSMiQPfvK5q2XDlUB47aU2yWjoAuWBgXze3ygsAFde4M6C-jMOKS8kZJ7ukb5HTMesVe9sQ"
+    },
+    {
+      "v": 1,
+      "kind": "layer",
+      "statement": {
+        "built": "2026-09-27T20:34:05Z",
+        "exports": [],
+        "frames": {
+          "core": {
+            "entry": "main.js",
+            "files": {
+              "main.js": "sha256-cfebd698fdb74816d640e64f55aaa4aac2d19cee62eb7d47e7508df9e6db9534",
+              "statements.mjs": "sha256-67d8af46e28f853b3feebcd40fcffdb23c310ce1037530d50ba75d8e742fa1f3"
+            },
+            "firstParty": true
+          }
+        },
+        "kid": "529ec1fdfce2846c",
+        "requires": [],
+        "sourceCommit": "f1183c3d119a04339a613ff4b23329a7aaad96ce",
+        "target": "layer:id",
+        "v": 1,
+        "version": 1
+      },
+      "kid": "529ec1fdfce2846c",
+      "sig": "Ow0-BrWjcItlr9NNrz3r8hNaQE-eRgTyGJZgCLdl4uB2m2VGh3opaV_ZelehftPpTM6PUeSxxdfZL5Srs-7iFg"
+    },
+    {
+      "v": 1,
+      "kind": "layer",
+      "statement": {
+        "built": "2026-09-27T20:34:05Z",
+        "exports": [
+          "friends.list",
+          "share.compose"
+        ],
+        "frames": {
+          "content": {
+            "entry": "content/main.js",
+            "files": {
+              "content/main.js": "sha256-9ffeb8ed4a922279bd0b995e2d02eeaae20b908e412953d090be91913572d3f3",
+              "content/render.js": "sha256-a375c42091deeaccc341e0325531fb725ac337c0548f58557db23eef1afd1667"
+            },
+            "firstParty": true,
+            "scripts": [
+              "content/render.js"
+            ],
+            "types": [
+              "dm",
+              "room",
+              "forum",
+              "movie"
+            ]
+          },
+          "core": {
+            "entry": "core/api.js",
+            "files": {
+              "core/api.js": "sha256-48c0a4c461149efa85b3c798ef1a386a0e24da95fa7176be2edf56ada58088cf",
+              "core/deskErase.js": "sha256-81307e1f39742fb451761ef3456355a591f2f248d0deb0ea7c6dc1325f47f463",
+              "core/envelopes.mjs": "sha256-01d0326d66456c09e75beda916343ab3fa8ab3f3ea2179b87507bc7393939204",
+              "core/epoch.mjs": "sha256-6b1c3dc4c6c4c73416061bb9012bd4cb5e510e58c3b3e82d6606487edf4bf184",
+              "core/exports.mjs": "sha256-15c67fb2ad2446441f17ef61233933383d799bc4eb9f4697f2fee97f70aee913",
+              "core/forums.js": "sha256-c75918001727f3291fd35f8e4ee5ac4f1057c50c6e0174809fcec39d9a80e350",
+              "core/hooks.js": "sha256-46819753c456af3b18b791ff9ddfde50125ee87d32b990e6ac5ed3e68d346cea",
+              "core/legacyDecrypt.mjs": "sha256-63010e28bbcd7bf5bfe3f3adb4fd05e65ea971e9f6a9f9359c10c38992581f49",
+              "core/media.js": "sha256-0e9661d6b3b18ca81a3ca7b2d2fc5af2df8975ad503373b493af1d75d2454e65",
+              "core/movieSync.js": "sha256-559986f02a4a05403acfa9f31b0180b226999bc12cf3cdb1127b97d551a9f721",
+              "core/protocol.js": "sha256-f291c64d462c93af8325a83d74fe1cfaf6375f673dc63f45db484aac2ec53d14",
+              "core/syncClient.js": "sha256-4b3ce75edb5d1d7560ada9b973e34dd837a7c1e3820d990fa0db78460dd1ca03",
+              "shared/statements.mjs": "sha256-67d8af46e28f853b3feebcd40fcffdb23c310ce1037530d50ba75d8e742fa1f3"
+            },
+            "firstParty": true,
+            "scripts": [
+              "core/hooks.js",
+              "core/protocol.js",
+              "core/forums.js",
+              "core/media.js",
+              "core/movieSync.js",
+              "core/syncClient.js",
+              "core/deskErase.js"
+            ]
+          },
+          "scene": {
+            "entry": "main.js",
+            "files": {
+              "main.js": "sha256-4b5eaafb02c7bc5b3e2e0069e38db713256a81fd16c79b2f2dd78eeb3741f301",
+              "scene/app.css": "sha256-e6ec5b64253e3caa0e6b4df42baae278049d7e97dca484a70470b49a1302cb41",
+              "scene/app.js": "sha256-2e6ef748c4d086f86ec1ef604ca726c522f478f8b25ba7c4116f4ad079cf8393",
+              "scene/call.js": "sha256-133784693df60676361193107f527c5411065e40ab687149a9c64b6071d9ccb5",
+              "scene/desktop.js": "sha256-ecff497d8f2c273b18d6914ef73e83eb2a4eea9c1254da5462b16ee9c026cdaa",
+              "scene/lib/adminConsole.js": "sha256-11df517587d30e973bb619829970a290964d2acd5fd170f2012c07d4c44cbf02",
+              "scene/lib/bootstrap.js": "sha256-c757de77ad0578d95d8c37a53fbdfa2e6d4536588e4b29f1e7ed8350de51718d",
+              "scene/lib/chrome.js": "sha256-138bfa7c71352c8bf7cf612fd7050b12dceaf02af479af98a1a6c6ba1044fec4",
+              "scene/lib/crypto.js": "sha256-a4c781946c393b77a8efd10ad6b13ca2fb2d880b1369e58617a986c7c3b4a7fc",
+              "scene/lib/deskBin.js": "sha256-26902881b5abd0a729829c5cd1d0966cd160a6aa186b26f15f455c6f15116d27",
+              "scene/lib/deskLayout.js": "sha256-e2ca8da85f40b8891856bf1a16beed1b62bed597c533a26ec1a254884a69cc68",
+              "scene/lib/identityStore.js": "sha256-e41373c92d5961f0d8a1f65a92c1dab36c1a56dd6accf0741393429e0e60551a",
+              "scene/lib/rescue.js": "sha256-01cd4a45d0f804a291f722347ca94cf0403e257f96814d928a526c8868acb8cd",
+              "scene/lib/validation.js": "sha256-257b9f703966f30367da9871a9dba26480647715a61b2b9c35febc4a5b3c0a50",
+              "vendor/three.module.js": "sha256-76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+            },
+            "firstParty": false,
+            "scripts": [
+              "scene/lib/validation.js",
+              "scene/lib/bootstrap.js",
+              "scene/lib/identityStore.js",
+              "scene/lib/crypto.js",
+              "scene/lib/rescue.js",
+              "core/protocol.js",
+              "content/render.js",
+              "scene/lib/chrome.js",
+              "core/media.js",
+              "core/forums.js",
+              "core/movieSync.js",
+              "core/syncClient.js",
+              "scene/lib/deskLayout.js",
+              "scene/lib/deskBin.js",
+              "core/deskErase.js",
+              "scene/lib/adminConsole.js"
+            ],
+            "style": "scene/app.css"
+          }
+        },
+        "kid": "529ec1fdfce2846c",
+        "requires": [
+          "id@1"
+        ],
+        "sourceCommit": "f1183c3d119a04339a613ff4b23329a7aaad96ce",
+        "target": "layer:socials",
+        "v": 1,
+        "version": 1
+      },
+      "kid": "529ec1fdfce2846c",
+      "sig": "y3goebMXaf_35QF-NmDRSUiMzZQYBszcnSQcjU76FjoJFZvEFJrZ3gb5ItAIxACvb_jS_xezLy1WEX2LxAtqUA"
+    }
+  ]
+}
