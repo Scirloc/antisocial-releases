@@ -13,7 +13,7 @@
           "index.html": "sha256-fea512cacd0430274c131d4881bc5f98e66c5764b44b2f4230fabc8b0869f477",
           "kernel.css": "sha256-500690cbd4408fe3427b580203c31ddec5c06f3b97a6b3edcafab5b8fb9bf3f9",
           "kernel.js": "sha256-c6c74b46456633c8cdb2b03f29138d149227ee1e37e0b8fc02d0c96655740356",
-          "kernel.json": "sha256-67110db741a457a6f5f948d2d25d01a4ef25ce53bf67debdd994092f38e548c9",
+          "kernel.json": "sha256-d7392c41f4f3bddd0613239fa605c5a28ce630210859b1bbb892198d98423a65",
           "lib/store.js": "sha256-602633ea8a3a08bf10849a5c14f461dcf3051411c7a25759e1acecd8cf6b3664",
           "lib/verify.js": "sha256-a03c0ac7b7538914392296ddee1bdec9813bd2fe74699d44e3344cca23603173"
         },
@@ -21,13 +21,13 @@
         "v": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "HsWXGh9BwL_b-JSHREzFYqn-qdYBP9GF2-XOA_ijSQbJtChfp6EJLrdXlxoOfta5sr8yT0CveF-HavOAPTw_aQ"
+      "sig": "C3JOz9XwqFhdN1Wu6c9aFFFQ_e_3K_3SiQZeIhKhfEmAROqz3qjQEGtpu8DYYBm6syVj-l43544LhARbuId9nA"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-27T21:05:45Z",
+        "built": "2026-09-27T22:19:07Z",
         "exports": [],
         "frames": {
           "core": {
@@ -41,19 +41,19 @@
         },
         "kid": "529ec1fdfce2846c",
         "requires": [],
-        "sourceCommit": "f73aa4ddb6e51b4166705434b5d9f83fc88aa229",
+        "sourceCommit": "426905c1a0a0a69f7615d89b0a070671b9cdeb80",
         "target": "layer:id",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "iM4YJgFMtkZSyBoxunRyUIm54em9TiFEoVd9muCQ6FRn9cCsEK1F3QpmZxwHRz6W6cM4f9gbVtDqax2tBK_oZA"
+      "sig": "5kNOGVKdl3GYCGBeH3Ntn9r8C-vqglQhwbrczWgL6E2BmUDV72TMgLV-UVypng4IeRSGr9vgI99iRzIsAV-13g"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-27T21:05:45Z",
+        "built": "2026-09-27T22:19:07Z",
         "exports": [
           "friends.list",
           "share.compose"
@@ -62,7 +62,7 @@
           "content": {
             "entry": "content/main.js",
             "files": {
-              "content/main.js": "sha256-9ffeb8ed4a922279bd0b995e2d02eeaae20b908e412953d090be91913572d3f3",
+              "content/main.js": "sha256-85ef9cb7e29c4bbc3d47470dd065f6041d3e39998f708d0b0d05d262dfb6cf46",
               "content/render.js": "sha256-a375c42091deeaccc341e0325531fb725ac337c0548f58557db23eef1afd1667"
             },
             "firstParty": true,
@@ -79,7 +79,7 @@
           "core": {
             "entry": "core/api.js",
             "files": {
-              "core/api.js": "sha256-9aa066a3258b53a068894e04ee87eb9e445cfa3318fa100cacbf18195f5d2535",
+              "core/api.js": "sha256-4b717adecae6ad539efa28554323f2f72d3c5b566f1a0dd22f6ee561231e54e6",
               "core/deskErase.js": "sha256-81307e1f39742fb451761ef3456355a591f2f248d0deb0ea7c6dc1325f47f463",
               "core/envelopes.mjs": "sha256-01d0326d66456c09e75beda916343ab3fa8ab3f3ea2179b87507bc7393939204",
               "core/epoch.mjs": "sha256-6b1c3dc4c6c4c73416061bb9012bd4cb5e510e58c3b3e82d6606487edf4bf184",
@@ -107,9 +107,9 @@
           "scene": {
             "entry": "main.js",
             "files": {
-              "main.js": "sha256-9e66cf7b99078ff687936582a269487b928769d7f9d52689faef0a7b53197730",
+              "main.js": "sha256-b0c995ce7c7be078f4c65cadbc9bd7914f87c79a824ad34688e2f34f435356c5",
               "scene/app.css": "sha256-e6ec5b64253e3caa0e6b4df42baae278049d7e97dca484a70470b49a1302cb41",
-              "scene/app.js": "sha256-d5e027393082d376977d5e21e6f5ec1cc1032762956f780f17702054b500f668",
+              "scene/app.js": "sha256-051b0e01299399bc4bc6d720d6b4a444baf9276977acde3ae7e440f157d96af1",
               "scene/call.js": "sha256-133784693df60676361193107f527c5411065e40ab687149a9c64b6071d9ccb5",
               "scene/desktop.js": "sha256-ecff497d8f2c273b18d6914ef73e83eb2a4eea9c1254da5462b16ee9c026cdaa",
               "scene/lib/adminConsole.js": "sha256-410844f538b1b120f392967dbe1230fbfa182be12a36ec01b71552c38cd674fc",
@@ -151,13 +151,13 @@
         "requires": [
           "id@1"
         ],
-        "sourceCommit": "f73aa4ddb6e51b4166705434b5d9f83fc88aa229",
+        "sourceCommit": "426905c1a0a0a69f7615d89b0a070671b9cdeb80",
         "target": "layer:socials",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "9iF7oYHMon_pd8JO1_oizQRSKavYbEf3QKBYWbsYDQdNTKgNgZoA5u6tFj-F7OfyGt-VOUIvY8RLQxsBYm87kA"
+      "sig": "gwB8fDt0F5IdFaUh6eV5Jq8qSeNNjs_WtZ6C-NNWIszQvF5lkHnZaTQmPkKfkQZgt5YVJ3r1iBdKtYL53Hh3Bw"
     }
   ]
 }
