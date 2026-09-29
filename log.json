@@ -11,8 +11,8 @@
           "core.js": "sha256-9dfe2ba77ed9a94a5b38f3bb6f8f50ad07e4169e2dfb27b99c5fa22d44e7faa7",
           "frame.js": "sha256-fdfcbd6f060e36d82c2fa59a73337946dea3198989d010845f376139771c4882",
           "index.html": "sha256-13fc5f4ee84efe034c2fb815959fef89c631982e512a98848dd42c7b084b8242",
-          "kernel.css": "sha256-d682634f03a7e045cd57e669f4c5ce1fb2c17b90a8c1695d73c17a531d18b20d",
-          "kernel.js": "sha256-7e3c8ee21f864024a6f623cab21e002f2eaf47797ee2b36c6a8a9a5685c5208d",
+          "kernel.css": "sha256-2fdc08be1d2f92de8fdfac0d575ef66bdfe4f8903bcdf8f37fb5c6f3d1cf9f7d",
+          "kernel.js": "sha256-cbb431f6b89f145950e1eb05611c842cfaa612d5d4f71551b8b2fd67808b1360",
           "kernel.json": "sha256-715187f69af3712ade99bc2ad25b07e5e936a1a357100be3dbc81ff7bc13c129",
           "lib/files.js": "sha256-9361380f02f5c07ab115332d43e6f6cfeb4b7cf0ad0a8b58015c7418d21e8af9",
           "lib/store.js": "sha256-08b5c2718fafde68db7aaea919a4d62e2fa90f7aa0a76fe7d3e7eb5e5826e999",
@@ -22,7 +22,7 @@
         "v": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "GMa4m8Jd5WsDcvBT16eyOBu238FGSvsThaOXlWjhpsBQqSvsHZ7a5jihekLnK7oR7RHVYZ-H_5QVBaaZMgqs4Q"
+      "sig": "ffXPru4YvZp3O4WsWKuJ7cr7-qlapHWVA94yhnC-0v6OXjSlw7tU-iPiMhcoBqxbyTmMxW13CkwwgVjF0I7Icg"
     },
     {
       "v": 1,
@@ -54,7 +54,7 @@
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-29T16:56:34Z",
+        "built": "2026-09-29T19:38:50Z",
         "exports": [
           "friends.list",
           "share.compose"
@@ -109,7 +109,7 @@
             "entry": "main.js",
             "files": {
               "main.js": "sha256-f5476bd746f1b9079fbc24db53268a3b29f3806d939699a7d3a4acf52f072f78",
-              "scene/app.css": "sha256-210f83728c1a051aa4ba6d0d622bd55f1a33eb97b79eb088c54f97454e9b8ee2",
+              "scene/app.css": "sha256-4d0bb5bb8116b46cb8079aa21983effced31fa4171062654fb7b090573e6e5dc",
               "scene/app.js": "sha256-a3c2e2ba1d760b993511af56035e3b2307a6ea741316613a1ce291ad77df23ae",
               "scene/call.js": "sha256-133784693df60676361193107f527c5411065e40ab687149a9c64b6071d9ccb5",
               "scene/desktop.js": "sha256-ecff497d8f2c273b18d6914ef73e83eb2a4eea9c1254da5462b16ee9c026cdaa",
@@ -154,13 +154,13 @@
         "requires": [
           "id@1"
         ],
-        "sourceCommit": "e840749407764b811bebf657be35f44c6798d1b8",
+        "sourceCommit": "1dbf676f82432df1eee6016344380268e5d2ff7b",
         "target": "layer:socials",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "lZeCnP_lR-L5Md6NrnuxZMu5nQaZ1C0ihV2A-271A-h1X_np89TPEVD8Ni_WuwLtMMzVcI1zE0wvYdKzsxY6xA"
+      "sig": "wDvvf4LPFguM1pfKUrXJ0OP7bFNib69yiB2MD1J16T5hliBj66A4DPEze7dBpkqiyBKRy0V441GyYLOJ3QeBtA"
     }
   ]
 }
