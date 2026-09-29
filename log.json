@@ -13,7 +13,7 @@
           "index.html": "sha256-13fc5f4ee84efe034c2fb815959fef89c631982e512a98848dd42c7b084b8242",
           "kernel.css": "sha256-d682634f03a7e045cd57e669f4c5ce1fb2c17b90a8c1695d73c17a531d18b20d",
           "kernel.js": "sha256-7e3c8ee21f864024a6f623cab21e002f2eaf47797ee2b36c6a8a9a5685c5208d",
-          "kernel.json": "sha256-ee2e4a4253f3590ff5c60e293d0daeb4add472249cce5e73ee3e340aeca62b12",
+          "kernel.json": "sha256-715187f69af3712ade99bc2ad25b07e5e936a1a357100be3dbc81ff7bc13c129",
           "lib/files.js": "sha256-9361380f02f5c07ab115332d43e6f6cfeb4b7cf0ad0a8b58015c7418d21e8af9",
           "lib/store.js": "sha256-08b5c2718fafde68db7aaea919a4d62e2fa90f7aa0a76fe7d3e7eb5e5826e999",
           "lib/verify.js": "sha256-1d98d1f78f10d1e6002b94c2b6392e778f3b21b090a24371ae01811b1635d899"
@@ -22,19 +22,19 @@
         "v": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "MMs6HPGRHPMF2i8qXOUgTsCgni39Cfo0J4g6kw_3XS561HzA4_O0Cx2CS7HutgdcsYaLNIzZsTeqmybDxx8dwA"
+      "sig": "GMa4m8Jd5WsDcvBT16eyOBu238FGSvsThaOXlWjhpsBQqSvsHZ7a5jihekLnK7oR7RHVYZ-H_5QVBaaZMgqs4Q"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-29T16:12:52Z",
+        "built": "2026-09-29T16:56:34Z",
         "exports": [],
         "frames": {
           "core": {
             "entry": "main.js",
             "files": {
-              "main.js": "sha256-8e3d878a87c950745932857a148b5c732420afc32b3772fa09a13dcf16ee856c",
+              "main.js": "sha256-8ddeb53614eb53e1a8128e7f7a5fda6b28af8e80779bd02adf32b5704cc3c401",
               "statements.mjs": "sha256-67d8af46e28f853b3feebcd40fcffdb23c310ce1037530d50ba75d8e742fa1f3"
             },
             "firstParty": true
@@ -42,19 +42,19 @@
         },
         "kid": "529ec1fdfce2846c",
         "requires": [],
-        "sourceCommit": "cdbb39a7d2a037b584289ea294f6878ef68dd5d8",
+        "sourceCommit": "e840749407764b811bebf657be35f44c6798d1b8",
         "target": "layer:id",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "VVemznsOHVW-mbYwshc3sZkVjiRbUqerA0z4k0ssbOvNdEkPJThYniNyOBZmDeIrZXBvJsElEYSGVYlN5rUo6g"
+      "sig": "zKazPkahXUC4aUxBOs5mTjlADPfT8Q23OeYzn7dzJBwlc8Flzl-E_6ZAD_Lkfc7CbIhgobcfWEG6_4qZy2hU_A"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-29T16:12:52Z",
+        "built": "2026-09-29T16:56:34Z",
         "exports": [
           "friends.list",
           "share.compose"
@@ -80,7 +80,7 @@
           "core": {
             "entry": "core/api.js",
             "files": {
-              "core/api.js": "sha256-7819d688dfeddd5ad2163e555a7180a08289d420e70bfd5a0d7dae23bfadf333",
+              "core/api.js": "sha256-57d2775a9b2c0519f940998bdfb50de15028b41c48c86ddb8edb96517651e681",
               "core/deskErase.js": "sha256-81307e1f39742fb451761ef3456355a591f2f248d0deb0ea7c6dc1325f47f463",
               "core/envelopes.mjs": "sha256-01d0326d66456c09e75beda916343ab3fa8ab3f3ea2179b87507bc7393939204",
               "core/epoch.mjs": "sha256-6b1c3dc4c6c4c73416061bb9012bd4cb5e510e58c3b3e82d6606487edf4bf184",
@@ -108,9 +108,9 @@
           "scene": {
             "entry": "main.js",
             "files": {
-              "main.js": "sha256-7f5f53bff5ee8ee01c3b213a382f7903aed513521d9010375e1b6fc1af87bbe2",
-              "scene/app.css": "sha256-e6ec5b64253e3caa0e6b4df42baae278049d7e97dca484a70470b49a1302cb41",
-              "scene/app.js": "sha256-18bed37ce724a7ee8029eea09d83a2eb76e5818a9450a72c35258105f866d8f4",
+              "main.js": "sha256-f5476bd746f1b9079fbc24db53268a3b29f3806d939699a7d3a4acf52f072f78",
+              "scene/app.css": "sha256-210f83728c1a051aa4ba6d0d622bd55f1a33eb97b79eb088c54f97454e9b8ee2",
+              "scene/app.js": "sha256-a3c2e2ba1d760b993511af56035e3b2307a6ea741316613a1ce291ad77df23ae",
               "scene/call.js": "sha256-133784693df60676361193107f527c5411065e40ab687149a9c64b6071d9ccb5",
               "scene/desktop.js": "sha256-ecff497d8f2c273b18d6914ef73e83eb2a4eea9c1254da5462b16ee9c026cdaa",
               "scene/lib/adminConsole.js": "sha256-410844f538b1b120f392967dbe1230fbfa182be12a36ec01b71552c38cd674fc",
@@ -122,6 +122,7 @@
               "scene/lib/dmTitle.js": "sha256-0f2fca512863ed0a49fd970e2167ebbb0272514ff37e5e7dfd5ea93f39727a97",
               "scene/lib/identityStore.js": "sha256-e41373c92d5961f0d8a1f65a92c1dab36c1a56dd6accf0741393429e0e60551a",
               "scene/lib/rescue.js": "sha256-01cd4a45d0f804a291f722347ca94cf0403e257f96814d928a526c8868acb8cd",
+              "scene/lib/securityDesk.js": "sha256-de2e98cb5ea7b2cbd61a63c649afb3d5fec62ca79a1d521e03e25685255f35d9",
               "scene/lib/validation.js": "sha256-257b9f703966f30367da9871a9dba26480647715a61b2b9c35febc4a5b3c0a50",
               "vendor/three.module.js": "sha256-76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
             },
@@ -143,7 +144,8 @@
               "scene/lib/deskLayout.js",
               "scene/lib/deskBin.js",
               "core/deskErase.js",
-              "scene/lib/adminConsole.js"
+              "scene/lib/adminConsole.js",
+              "scene/lib/securityDesk.js"
             ],
             "style": "scene/app.css"
           }
@@ -152,13 +154,13 @@
         "requires": [
           "id@1"
         ],
-        "sourceCommit": "cdbb39a7d2a037b584289ea294f6878ef68dd5d8",
+        "sourceCommit": "e840749407764b811bebf657be35f44c6798d1b8",
         "target": "layer:socials",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "jeadd5ZU1YdFf06VXjzgOlfAtLu5QMNhZ57dA_cSatVH9khVR6gamnBewcru86d8QOLDUWNIj_3QwHB0LmUl5Q"
+      "sig": "lZeCnP_lR-L5Md6NrnuxZMu5nQaZ1C0ihV2A-271A-h1X_np89TPEVD8Ni_WuwLtMMzVcI1zE0wvYdKzsxY6xA"
     }
   ]
 }
