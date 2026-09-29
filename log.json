@@ -11,30 +11,30 @@
           "core.js": "sha256-9dfe2ba77ed9a94a5b38f3bb6f8f50ad07e4169e2dfb27b99c5fa22d44e7faa7",
           "frame.js": "sha256-fdfcbd6f060e36d82c2fa59a73337946dea3198989d010845f376139771c4882",
           "index.html": "sha256-13fc5f4ee84efe034c2fb815959fef89c631982e512a98848dd42c7b084b8242",
-          "kernel.css": "sha256-09f57c05680b53cd0c4b1e5f91f414173b44a936a3e0de4a96be41e85933ea91",
-          "kernel.js": "sha256-6be3482254ab09fc19584442ba55123278c84f5f2aea33411b8ee47038d686fa",
-          "kernel.json": "sha256-d00c88a5b842b4fe27721933400ccf64886a18cac95609d3d59e18bdaf551966",
-          "lib/files.js": "sha256-1f67491147131d504240284266a1dd6d0f5d2ff7fbecbd6336a4d8b99da9350f",
-          "lib/store.js": "sha256-baca014df29ae3fece736f60e4924813548a6378b19b4fc6f041799e5cad12ff",
+          "kernel.css": "sha256-d9909b6dda62195dce9f5bf81be73b51fcda6013502da8a32316605e8a19628b",
+          "kernel.js": "sha256-0f4e8bde8a72a273fabfd5b6d4ceed7e5cada6b37c062aed8e9f56d2a61fdf90",
+          "kernel.json": "sha256-ee2e4a4253f3590ff5c60e293d0daeb4add472249cce5e73ee3e340aeca62b12",
+          "lib/files.js": "sha256-9361380f02f5c07ab115332d43e6f6cfeb4b7cf0ad0a8b58015c7418d21e8af9",
+          "lib/store.js": "sha256-08b5c2718fafde68db7aaea919a4d62e2fa90f7aa0a76fe7d3e7eb5e5826e999",
           "lib/verify.js": "sha256-1d98d1f78f10d1e6002b94c2b6392e778f3b21b090a24371ae01811b1635d899"
         },
         "kernelVersion": 1,
         "v": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "zmcWfj-wdlblnKgLmB9tf3Gtv5kiuxw32r3zL6Eu_eS2HI5qGQEJc-zWgSbMTrrtkJosTumqM3opR1Dq-7Iu_A"
+      "sig": "i9P2oQpzmZDOaEiVDBzkPUVvwwqyyZiflPxY1ZwVUnoZIewDRlYy8oj42-sYPdIDGUirZjqEfTCLZV0Efb31BQ"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-28T01:08:53Z",
+        "built": "2026-09-28T02:17:13Z",
         "exports": [],
         "frames": {
           "core": {
             "entry": "main.js",
             "files": {
-              "main.js": "sha256-8d34c5ef5b2fcbf2dd68f23ae0160ff6a448cfe32f9ecc399d8bbdebf0dc85bc",
+              "main.js": "sha256-8e3d878a87c950745932857a148b5c732420afc32b3772fa09a13dcf16ee856c",
               "statements.mjs": "sha256-67d8af46e28f853b3feebcd40fcffdb23c310ce1037530d50ba75d8e742fa1f3"
             },
             "firstParty": true
@@ -42,19 +42,19 @@
         },
         "kid": "529ec1fdfce2846c",
         "requires": [],
-        "sourceCommit": "3137a05ae755a7ff2713c4f85ab76666897c83e0",
+        "sourceCommit": "38dafa30b3d6a68d825580064fa87c7621c79949",
         "target": "layer:id",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "DPzBRkESDUbni_LHGZt6pB4c0lIeGVkVWA6pYszTE_wwZR7InyyQZwHeiWK1CT5dJSY5xsA7HEzboxAKtbLCnQ"
+      "sig": "JEfua0kFCQ8UxBMdp8ub1OgdXiUNBSzeH8tJaErc9NvozfsAayfvaazGs0nI6GvjlgSbtrsBGsB1EhRJ4xZUwg"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-09-28T01:08:53Z",
+        "built": "2026-09-28T02:17:13Z",
         "exports": [
           "friends.list",
           "share.compose"
@@ -152,13 +152,13 @@
         "requires": [
           "id@1"
         ],
-        "sourceCommit": "3137a05ae755a7ff2713c4f85ab76666897c83e0",
+        "sourceCommit": "38dafa30b3d6a68d825580064fa87c7621c79949",
         "target": "layer:socials",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "G56QnFr2nYtcD2Usz91O0TUy3ppseEVYiKW6L33TNstj43IoxF1CIST5UtIBPJeWyZr9_npJMkUMkXmX7QqX-Q"
+      "sig": "K_Ug29WkexNWUIxPZDQLBjSAw3xa7coiJJlGK0OzVktFxPG-Krhz8AuLOsmEWPBtdqrRpd_MoFiwtp4GeIfssg"
     }
   ]
 }
