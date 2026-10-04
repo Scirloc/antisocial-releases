@@ -6,25 +6,22 @@
       "kind": "kernel",
       "statement": {
         "files": {
-          "index.html": "sha256-38c8de7fc93c16a4e5839ff933e322ae504cd3b2c22e527807461a1962c8000d",
+          "index.html": "sha256-bac0dbe26b82b5cf97495cafdcb9995c1af66b6d4b5e21c9eb62fbbc28fe69c7",
           "kernel.css": "sha256-9ddf45684823397c762dfc028e2d8b9fe9972d49b3857e7115278ad1d212de14",
-          "kernel.js": "sha256-4cd9e131a4646320117b7677951e6566144e8f747654621f35861f81a1bdd395",
-          "kernel.json": "sha256-29c70ae74dd24ca890ee23d7caa2b6b32d90eea46d300157971f89a7bdb69bbe",
-          "lib/files.js": "sha256-9afe2451c9e8ea575c733c9805ba1112aef57ef6259dbf3431e1bd47a5973248",
-          "lib/store.js": "sha256-338842d177ac29225313c668c5f97de4c50359c249bba0656e85b53d570075b5",
-          "lib/verify.js": "sha256-27349e553ceadf032886fd331fdba995ec5340af90daf2d45dd809cdc5a9d204"
+          "kernel.js": "sha256-67ec3ea349512343aef9fb5816e37c4cde7c4e76781e3e1dd05329ef34b26545",
+          "kernel.json": "sha256-29c70ae74dd24ca890ee23d7caa2b6b32d90eea46d300157971f89a7bdb69bbe"
         },
         "kernelVersion": 1,
         "v": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "NIkq-ai6dFpccKKDsFy3uWPxhbSxxuWl9BqXdzJSOyVo6052eVQdWtUuhbcg0F4a8x-el-19zc5pw_urdWUpEA"
+      "sig": "rkP7rSLP0hnLOXChT8mZAC8sRuGTLRukgTXzIrUWkyy6W1cqmlt4lPkKThdmMCfwKUIMNh6ICN7Di1WTQ1Xn5A"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-10-03T20:54:49Z",
+        "built": "2026-10-04T19:35:38Z",
         "exports": [],
         "frames": {
           "core": {
@@ -43,19 +40,19 @@
         },
         "kid": "529ec1fdfce2846c",
         "requires": [],
-        "sourceCommit": "684d6d31f9a04e677bf07fb57f73de911650eb7c",
+        "sourceCommit": "048c543b5f06717ae9d18f3875706e633ee1e53a",
         "target": "layer:id",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "g1drO8RGrgr-c3yZStMBJgvDrSvkqi17vqV6vEP_-EqorUPviD4Dd0HNMPYmxhsj3yN-34ptrlCWFWOXBdG9Rg"
+      "sig": "qJEGL3csvxF5l52vhPExbYKoy3Tmv9H7FiGWuY4xnb_luNgxIdtteNh7dW6lAUU9iC83F7VhzNe3gQL96j2h6w"
     },
     {
       "v": 1,
       "kind": "layer",
       "statement": {
-        "built": "2026-10-03T20:54:49Z",
+        "built": "2026-10-04T19:35:38Z",
         "exports": [
           "friends.list",
           "share.compose"
@@ -147,13 +144,13 @@
         "requires": [
           "id@1"
         ],
-        "sourceCommit": "684d6d31f9a04e677bf07fb57f73de911650eb7c",
+        "sourceCommit": "048c543b5f06717ae9d18f3875706e633ee1e53a",
         "target": "layer:socials",
         "v": 1,
         "version": 1
       },
       "kid": "529ec1fdfce2846c",
-      "sig": "6U_7hLW0KScUEVioiR9I2IYq-RDBW7RrV95sSfxG9tBiigwhOQlBdpwGJo0-15BJzATs66vgZSvQJuXvxqcemg"
+      "sig": "UmyNDvLSakgWKuKYlxGx-OZRM-yTN0ZOlM73Mlxn5ZiTh42XjnAS1xt5-8xLd2Jfm4S3HuV9XeDjZCqCUyuMLg"
     }
   ]
 }
